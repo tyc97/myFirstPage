@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+width: 1200px;
+margin: 0 auto;
+border: 1px solid black;
+font-family: arial, Verdana, sans-serif;
+}
+
+#header{
+background: #053346;
+width: 1180px;
+padding: 20px 10px;
+color: white;
+}
+
+#nav{
+background: orange;
+width: 1200px;
+}
+
+#nav ul{
+list-style: none;
+}
+
+#nav ul li{
+float: left;
+width: 240px;
+padding: 15px 0px;
+text-align: center;  
+}
+
+#nav ul li:hover{
+background: #ffd280;
+color: brown;
+}
+
+#nav a{
+color: black;
+}
+
+#middle{
+}
+
+#left{
+width: 800px;
+height: 600px;
+float: left;
+}
+
+.post{
+margin: 20px;
+}
+
+.title{
+background: #053346;
+padding: 15px 10px;
+color: white;
+font-size: 25px;
+font-weight: bold;
+}
+
+.description{
+background: #f1f1f1;
+padding: 20px;
+}
+
+#right{
+width: 360px;
+height: 600px;
+float: left;
+padding: 20px;
+}
+
+#right h2{
+text-align: center;
+}
+
+#secTitleGroup{
+margin: 10px 0;
+}
+
+.secondaryTitle{
+background: #053346; 
+padding: 10px 0;
+color: white;
+text-align: center;
+margin: 10px 0;
+}
+
+#newsLetter{
+
+}
+
+.newsLetterHead{
+text-align: center;
+font-size: 25px;
+}
+
+input[type="text"]{
+width: 360px;
+height: 30px;
+}
+
+input[type="submit"]{
+width: 360px;
+margin: 10px 0;
+background: orange;
+color: black;
+padding: 10px 0;
+border: none;
+font-size: 20px;
+}
+
+input[type="submit"]:hover{
+background: #053346;
+color: white;
+}
+
+#footer{
+background: #053346;
+width: 1200px;
+padding: 20px 0;
+color: white;
+text-align: center;
+}
