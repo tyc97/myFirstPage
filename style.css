@@ -42,9 +42,6 @@ color: brown;
 color: black;
 }
 
-#middle{
-}
-
 #left{
 width: 800px;
 height: 600px;
@@ -89,10 +86,6 @@ padding: 10px 0;
 color: white;
 text-align: center;
 margin: 10px 0;
-}
-
-#newsLetter{
-
 }
 
 .newsLetterHead{
